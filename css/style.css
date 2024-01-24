@@ -7,6 +7,10 @@ body {
     justify-content: space-between;
 }
 
+p {
+    margin: 0;
+}
+
 .header, .footer {
     background: #1f2937;
     font-size: 18px;
@@ -73,6 +77,10 @@ img {
 }
 
 .content {
+    /* padding: 8px 128px; */
+}
+
+.content-top {
     padding: 8px 128px;
 }
 
@@ -90,8 +98,35 @@ img {
     gap: 8px;
 }
 
-.content-bottom {
+.content-top-image {
+    border: 1px solid #3882f6;
+    border-radius: 10%;
+}
+
+.content-middle {
     background-color: #e5e7eb;
+    padding: 8px 128px;
+
+}
+
+.content-middle-quote {
+    color: #1f2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.content-middle-signature {
+    font-weight: bold;
+    text-align: right;
+}
+
+.content-bottom {
+    padding: 8px 128px;
+    background-color: #3882f6;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .footer {
