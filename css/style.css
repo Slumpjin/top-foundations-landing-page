@@ -11,6 +11,14 @@ p {
     margin: 0;
 }
 
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 10%;
+    cursor: pointer;
+    padding: 4px 8px;
+}
+
 .header, .footer {
     background: #1f2937;
     font-size: 18px;
@@ -63,12 +71,7 @@ p {
 }
 
 .header-button {
-    background-color: #3882f6;
-    color: #f9faf8;
     border: none;
-    border-radius: 10%;
-    cursor: pointer;
-    padding: 4px 8px;
 }
 
 img {
@@ -76,9 +79,9 @@ img {
     max-height: auto;
 }
 
-.content {
+/* .content {
     /* padding: 8px 128px; */
-}
+ */
 
 .content-top {
     padding: 8px 128px;
@@ -122,11 +125,19 @@ img {
 
 .content-bottom {
     padding: 8px 128px;
-    background-color: #3882f6;
     color: white;
+}
+
+.content-bottom-sign-up {
+    background-color: #3882f6;
+    gap: 16px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+}
+
+.sign-up-button {
+    border-color: white;
 }
 
 .footer {
